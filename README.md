@@ -4,10 +4,10 @@
 Este proyecto implementa un sistema distribuido para mejorar la percepción táctil en robótica. Permite que un brazo robótico manipule objetos frágiles con precisión.
 
 ## 2. Descripción del Problema
-Los sensores táctiles de bajo coste ofrecen resoluciones muy bajas (matrices de \(16 \times 16\)). Esto limita la cantidad de detalle disponible para la manipulación. 
+Los sensores táctiles de bajo coste ofrecen resoluciones muy bajas (matrices de 16x16). Esto limita la cantidad de detalle disponible para la manipulación. 
 La aplicación cliente-servidor resuelve esto mediante:
 1. Validación y procesamiento de datos táctiles en C++.
-2. Escalado manual por interpolación bilineal a \(128 \times 128\).
+2. Escalado manual por interpolación bilineal a 128x128.
 3. Transmisión de datos interpolados mediante HTTP POST.
 4. Reconstrucción y renderizado de mapas térmicos de presión en Python.
 
